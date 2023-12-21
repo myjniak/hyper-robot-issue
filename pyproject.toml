@@ -1,0 +1,12 @@
+[project]
+name = "MyLibrary"
+requires-python = ">=3.7"
+dependencies = [
+    "robotframework"
+]
+version = "1.0.0"
+[tool.setuptools.packages.find]
+where = ["src"]
+include = [
+    "MyLibrary*"
+]
