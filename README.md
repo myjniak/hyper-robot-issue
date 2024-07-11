@@ -17,9 +17,12 @@ Set src/ as Sources Root
 
 
 ## How it should work and works for intellibot #patched
-![](readme_src/intellibot_patched.gif)
+![](readme_src/aliased_intellibot.gif)
+### Note: interestingly, it works only when libraries are aliased 
 
 ## How it works for Hyper Robot Framework Support
-![](readme_src/hyper_rf_support.gif)
+![](readme_src/indirect_class_import.png)
 
-# Can you fix this dot notation module import? :)
+## MyModuleB is a package that imports class MyModuleB in __init__.py.
+## This kind of import is supported by Robot Framework.
+# Detecting these kinds of Library imports would be a great addition to the Hyper plugin :)

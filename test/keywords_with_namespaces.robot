@@ -1,5 +1,7 @@
 *** Settings ***
 Library   OperatingSystem
+Documentation   FIXED IN 0.1.17, see https://github.com/jnhyperion/HyperRobotFrameworkPlugin/issues/14
+
 
 *** Test Cases ***
 A

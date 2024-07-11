@@ -1,7 +1,7 @@
 from robot.api import logger
 
 
-class MyModule:
+class MyModuleB:
 
     @staticmethod
     def my_super_keyword():
