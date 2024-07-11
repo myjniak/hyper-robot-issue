@@ -17,8 +17,9 @@ Set src/ as Sources Root
 
 
 ## How it should work and works for intellibot #patched
+### Note: interestingly, it works only when libraries are aliased
 ![](readme_src/aliased_intellibot.gif)
-### Note: interestingly, it works only when libraries are aliased 
+ 
 
 ## How it works for Hyper Robot Framework Support
 ![](readme_src/indirect_class_import.png)
